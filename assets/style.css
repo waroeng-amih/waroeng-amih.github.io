@@ -1,0 +1,32 @@
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	transform: scale(1,01);
+}
+
+.about-info-area .info-left img {
+  width: 80%;
+  height: 355px;
+}
+
+@media (max-width: 991px) {
+  .about-info-area .info-left {
+    margin-bottom: 30px;
+  }
+}
+
+.about-info-area .info-right h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.about-info-area .info-right h1 {
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.about-info-area .info-right p {
+  max-width: 450px;
+}
+
